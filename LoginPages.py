@@ -5,10 +5,10 @@ from selenium.webdriver.common.by import By
 class LoginSearchLocators:
     LOCATOR_EMAIL_USERNAME_FIELD = (By.ID, "UsernameOrEmail")
     LOCATOR_PASSWORD_FIELD = (By.ID, "Password")
-    LOCATOR_SUBMIT_BUTTON = (By.CSS_SELECTOR, '[type="submit"]')  # '[type="submit"]'
-    LOCATOR_ERROR_RESPONSE_FIELD = (By.CLASS_NAME, "field-message-error")  # '[class="field-message-error"]'
-    LOCATOR_FOUND_ACCOUNT = (By.CLASS_NAME, "user-username")  # '[class="user-username"]'
-    LOCATOR_LOGGED_IN_ACCOUNT = (By.CLASS_NAME, "dashboard-account-username")  # '[class="dashboard-account-username"]'
+    LOCATOR_SUBMIT_BUTTON = (By.CSS_SELECTOR, '[type="submit"]')
+    LOCATOR_ERROR_RESPONSE_FIELD = (By.CLASS_NAME, "field-message-error")
+    LOCATOR_FOUND_ACCOUNT = (By.CLASS_NAME, "user-username")
+    LOCATOR_LOGGED_IN_ACCOUNT = (By.CLASS_NAME, "dashboard-account-username")
 
 
 class SearchHelper(BasePage):
